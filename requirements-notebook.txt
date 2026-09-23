@@ -1,0 +1,10 @@
+# TensorFlow/Keras versions used to verify the packaged checkpoints.
+tensorflow==2.18.0
+keras==3.10.0
+numpy>=1.26,<2.1
+# The contrib build supplies cv2.dnn_superres for retained EDSR preparation.
+opencv-contrib-python>=4.7,<4.12
+h5py
+Pillow
+matplotlib
+ipykernel
